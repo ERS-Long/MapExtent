@@ -44,5 +44,5 @@ Example Draw Extent Return
             
             center: [-98.366221, 33.013378], 
             zoom: 6, 
-
+![README Screenshot]
 (http://postimg.org/image/t4h4zgfg5/)
