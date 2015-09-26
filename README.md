@@ -1,8 +1,10 @@
 # MapExtent
-CMV Widget to get map extent and zoom level
+CMV Widget to get map extent and zoom level.
 
 This widget can be utilized to get current map extent or draw an map extent. It returns both the map extent, center point, and zoom in level.
 The value should refresh if the map extent changes.
+
+The return extent string is in CMV extent settings format. 
 
 Viewer.js config setting
 
