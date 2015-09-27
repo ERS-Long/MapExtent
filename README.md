@@ -29,8 +29,8 @@ Example Draw Extent Return
             xmax: -10305560.664398193, 
             ymax: 4224402.297645146, 
             
-            spatialReference:{ 
-                wkid:102100 
+            spatialReference: { 
+                wkid: 102100 
             } 
             
             xmin: -104.156016, 
@@ -38,8 +38,8 @@ Example Draw Extent Return
             xmax: -92.576427, 
             ymax: 35.444135, 
             
-            spatialReference:{ 
-                wkid:4326 
+            spatialReference: { 
+                wkid: 4326 
             } 
             
             center: [-98.366221, 33.013378], 
