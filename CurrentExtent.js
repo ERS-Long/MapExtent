@@ -120,11 +120,13 @@ define([
 
             s += "\n";
 
-            var xcenter1 = (parseFloat(normalizedValMin[0]) + parseFloat(normalizedValMax[0]))/2.0;
-            var ycenter1 = (parseFloat(normalizedValMin[1]) + parseFloat(normalizedValMax[1]))/2.0;
+            var c = webMercatorUtils.webMercatorToGeographic(geometry.getCenter());
 
-            s += "center: [" + xcenter1.toFixed(6) + ", " + ycenter1.toFixed(6) + "], \n";
+        //    var xcenter1 = (parseFloat(normalizedValMin[0]) + parseFloat(normalizedValMax[0]))/2.0;
+        //    var ycenter1 = (parseFloat(normalizedValMin[1]) + parseFloat(normalizedValMax[1]))/2.0;
 
+            s += "center: [" + c.x.toFixed(6) + ", " + c.y.toFixed(6) + "], \n";
+            
             var level = map.getLevel();
             s += "zoom: " + level + ", \n";
             s += "\n";
