@@ -100,8 +100,8 @@ define([
                 +"xmax: " + geometry.xmax.toFixed(9) + ", \n"
                 +"ymax: " + geometry.ymax.toFixed(9) + ", \n"
                 +"\n"
-                +"spatialReference:{ \n"
-                +"    wkid:102100 \n"
+                +"spatialReference: { \n"
+                +"    wkid: " + geometry.spatialReference.wkid + " \n"
                 +"} \n";
             
             s += "\n";
@@ -114,8 +114,8 @@ define([
                 +"xmax: " + normalizedValMax[0].toFixed(6) + ", \n"
                 +"ymax: " + normalizedValMax[1].toFixed(6) + ", \n"
                 +"\n"
-                +"spatialReference:{ \n"
-                +"    wkid:4326 \n"
+                +"spatialReference: { \n"
+                +"    wkid: 4326 \n"
                 +"} \n";
 
             s += "\n";
